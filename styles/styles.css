@@ -65,7 +65,7 @@ span{
 
 #header-part{
     height: 450px;
-    background-image:linear-gradient( rgba(0,0,0,0.7) , rgba(0,0,0,0.05)), url(/Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-image:linear-gradient( rgba(0,0,0,0.7) , rgba(0,0,0,0.05)), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     border-radius: 10px;
     
 }
@@ -388,7 +388,61 @@ font-weight: 500;
  }        
         
 #footer-part{
-    margin-top: 80px;
-    border: 2px solid black;
+    margin-top: 60px;
     height: 400px;
+    background: rgba(19, 19, 24, 0.05);
+}
+ 
+.icons{
+    text-align: center;
+    margin-top: 20px;
+} 
+.icons img{
+    max-width: 45px;
+}
+
+.footer-first-text{
+    display: flex;
+    height: 60px;
+    margin-top: 90px;
+    padding-top: 75px;
+
+
+}
+.footer-first-text h1{
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+    padding-right: 430px;
+    
+
+}
+.footer-first-text img{
+padding-left: 410px;
+max-width: 45px;
+}
+.footer-para{
+    height: 50px;
+    text-align: center;
+}
+.footer-para p{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+width: 500px;
+}
+
+#abcd{
+    width: 600px;
+    margin-left: 300px;
+}
+
+.last-text{
+    text-align: center;
+    color: #131318;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+font-family: Mulish;
 }

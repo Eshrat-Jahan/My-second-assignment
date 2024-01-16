@@ -387,4 +387,8 @@ font-size: 20px;
 font-weight: 500;
  }        
         
-
+#footer-part{
+    margin-top: 80px;
+    border: 2px solid black;
+    height: 400px;
+}

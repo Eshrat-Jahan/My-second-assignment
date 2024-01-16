@@ -1,0 +1,390 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+
+ *{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+
+
+
+/* Navigation part  */
+
+#nav-part{
+    display: flex;
+    margin-top: 50px;
+    position: relative;
+    height: 146px;
+    
+}
+
+.nav-left-text img{
+    position: absolute;
+    top: 45px;
+    left: 5px;
+}
+.nav-left-text h1{
+    top: 45px;
+    position: relative;
+    right: 370px;
+    color: #131318;
+font-family:Mulish;
+font-size: 36px;
+font-weight: 800;
+}
+
+.nav-right-text{
+    position: absolute;
+    width: 500px;
+    left: 685px;
+    top: 55px;
+    color: var(--Dark-02, #424247);
+font-size: 18px;
+font-weight: 400;
+font-family: Mulish;
+
+    
+}
+
+.nav-right-text >ul{
+    list-style-type: none;
+    display: flex;
+    position: relative;
+}
+
+
+span{
+    color: #FF5400;
+}
+
+/* Header part  */
+
+#header-part{
+    height: 450px;
+    background-image:linear-gradient( rgba(0,0,0,0.7) , rgba(0,0,0,0.05)), url(/Images/Group\ 13\ \(1\)\ \(1\).png);
+    border-radius: 10px;
+    
+}
+
+.header-text{
+height: 150px;
+justify-content: center;
+padding-top: 50px;
+
+
+}
+
+.header-text h1{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: Mulish;
+}
+
+.header-text p{
+    color: #FFF;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+width: 500px;
+font-family: Mulish;
+}
+
+.form-type{
+    display: flex;
+    padding-top: 65px;
+    width: 600px;
+    
+}
+
+ input{
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    font-family: Mulish;
+
+}
+
+.form1 input{
+    width: 80px;
+}
+.form2 input{
+    width: 80px;
+}
+.form3 input{
+    width: 80px;
+}
+.form4 button{
+    width: 100px;
+    padding: 9px;
+    border-radius: 8px;
+    background-color: #FF5400;
+    color:#FFF;
+    border: none;
+    height: 36px;
+    
+}
+        /* main part starts  */
+        /* Our populer tours  */
+
+        #first-main{
+            display: flex;
+            padding-top: 130px;
+            justify-content: space-between;
+        }
+
+        .left-text{
+            width: 500px;
+        }
+        .left-text h2{
+            color: #131318;
+            font-size: 40px;
+            font-weight: 800;
+            font-family: Mulish;
+        }
+        
+        .left-text p, li{
+            color: rgba(19, 19, 24, 0.70);
+          font-size: 16px;
+          font-weight: 400;
+          font-family: Mulish;
+        }
+
+        .left-text button{
+            width: 100px;
+            padding: 12px;
+            border-radius: 8px;
+            background-color: #FF5400;
+            color:#FFF;
+            border: none;
+            height: 40px;
+            font-family: Mulish;
+        }
+
+        /* <!-- second main part  --> */
+                /* <!-- choose your destination  --> */
+
+                #second-main{
+                    height: 1155px;
+                    margin-top: 100px;
+                }
+
+.second-main-text{
+height: 150px;
+ text-align: center;
+                    
+ }
+
+.second-main-text h2{
+ color: #131318;
+font-family: Mulish;
+font-size: 40px;
+font-weight: 800;
+
+}
+.second-main-text p{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    width: 500px;
+    padding-top: 20px;
+}
+
+/* Grid part starrts  */
+
+#grid-part{
+    height: 1000px;
+}
+.row1 {
+    display: flex;
+    margin-bottom: 25px;
+    
+}
+.row2{
+    display: flex;
+    margin-bottom: 25px;
+}
+.row3{
+    display: flex;
+}
+ 
+#third-main{
+    height: 900px;
+}
+
+.why-upper-text{
+    height: 150px;
+    text-align: center;
+}
+.why-upper-text h1{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+.why-upper-text p{
+    color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+padding-top: 20px;
+width: 600px;
+}
+
+.upper-two-box{
+    display: flex;
+    
+}
+
+.left-box{
+    height: 300px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+width: 500px;
+}
+.left-box h3{
+    color: #131318;
+font-family: Mulish;
+font-size: 24px;
+font-weight: 800;
+padding-bottom: 15px;}
+
+.left-box p{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+}
+
+.right-box{
+    height: 300px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+width: 500px;
+
+}
+
+.right-box h3{
+    color: #131318;
+font-family: Mulish;
+font-size: 24px;
+font-weight: 800;
+padding-bottom: 15px;
+}
+.right-box p{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+}
+
+
+#third-main img{
+    width: 60px;
+}
+
+  .center-box{
+    height: 300px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+width: 500px;
+margin-top: 70px;
+ }
+
+ .center-box h3{
+    color: #131318;
+font-family: Mulish;
+font-size: 24px;
+font-weight: 800;
+padding-bottom: 15px;
+ }
+
+ .center-box p{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+ }
+
+ #fourth-main{
+    display: flex;
+    margin-top: 70px;
+    
+    
+ }
+ .newsletter{
+    border-radius: 16px;
+border: 1px solid #FF5400;
+height: 440px;
+padding-left: 30px;
+margin-left: 0;
+width: 450px;
+
+ }
+
+ .newsletter h3{
+    color: #131318;
+font-family: Mulish;
+font-size: 24px;
+font-weight: 800;
+padding-top: 50px;
+padding-bottom: 20px;
+
+ }
+ .newsletter p{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+width: 340px;
+padding-right: 200px;
+ }
+ hr{
+    width: 340px;
+    margin-left: 0;
+ }
+
+ .news-image {
+    margin-right: 0;
+    
+ }
+ .news-image img{
+    height: 440px;
+ }
+ .news-form input{
+    border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+width: 330px;
+height: 35px;
+ }
+
+ .news-form button{
+    border-radius: 8px;
+background: #FF5400;
+width: 350px;
+height: 38px;
+border: none;
+color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-weight: 500;
+ }        
+        
+
